@@ -24,8 +24,14 @@
 }
 .title {
     justify-content: space-evenly;
-    background-color: aqua;
-    column-gap: 10px;
+    background-color: rgba(255, 255, 255, 0.226);
+    backdrop-filter: blur(8px);
+    column-gap: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .title img {
     width: 60px;
@@ -42,7 +48,6 @@
     text-align: center;
 }
 .title h2 {
-    background-color: white;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -57,7 +62,6 @@
     height: 80%;
     flex-wrap: wrap;
     justify-content: center;
-    /* backdrop-filter: blur(8px); */
 }
 .icon {
     position: relative;
@@ -71,11 +75,11 @@
 }
 .icon::before {
     content: "اللغة الإنجليزية";
-    width: 88%;
-    height: 30px;
+    width: 100%;
+    height: 28px;
     position: absolute;
-    bottom: 25px;
-    left: -29px;
+    bottom: 35px;
+    left: -34px;
     background-color: darkcyan;
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
@@ -100,9 +104,11 @@
     background-color: blue;
     backdrop-filter: blur(8px);
 }
-.icon h4 {
+.icon h5 {
     text-align: center;
-    background-color: red;
+    font-size: 8px;
+    font-family: var(--font-aady);
+    background-color: #eee;
 }
 .circle img {
     width: 100%;
@@ -112,4 +118,7 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+.title:nth-last-child(1) {
+    margin-top: 10px;
 }
