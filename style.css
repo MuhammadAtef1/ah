@@ -17,7 +17,6 @@
     padding: 10px 25px;
     margin: auto;
     width: 600px;
-    height: 100vh;
     background-image: url(https://muhammadatef1.github.io/Contact-Form/assets/images/wallpaperflare.com_wallpaper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -72,6 +71,7 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    background-color: #eeeeee63;
 }
 .icon::before {
     content: "اللغة الإنجليزية";
@@ -79,8 +79,8 @@
     height: 28px;
     position: absolute;
     bottom: 35px;
-    left: -34px;
-    background-color: darkcyan;
+    left: -36px;
+    background-image: linear-gradient(to right, #204fb7, #aee6e5);
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
@@ -108,7 +108,7 @@
     text-align: center;
     font-size: 8px;
     font-family: var(--font-aady);
-    background-color: #eee;
+    background-image: linear-gradient(to right, #8a8be0, #e770d7);
 }
 .circle img {
     width: 100%;
