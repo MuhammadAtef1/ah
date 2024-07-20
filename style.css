@@ -17,14 +17,15 @@
     padding: 10px 25px;
     margin: auto;
     width: 600px;
-    background-image: url(https://muhammadatef1.github.io/Contact-Form/assets/images/wallpaperflare.com_wallpaper.jpg);
+    /* background-image: linear-gradient(to right, red, tomato); */
+    background-color: red;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .title {
     justify-content: space-evenly;
     background-color: rgba(255, 255, 255, 0.226);
-    backdrop-filter: blur(8px);
+    /* backdrop-filter: blur(8px); */
     column-gap: 20px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -45,6 +46,7 @@
 .title h3 {
     font-family: var(--font-aady);
     text-align: center;
+    text-shadow: 0 0 10px white;
 }
 .title h2 {
     border-radius: 20px;
@@ -75,23 +77,25 @@
 }
 .icon::before {
     content: "اللغة الإنجليزية";
-    width: 100%;
+    width: 98%;
     height: 28px;
     position: absolute;
     bottom: 35px;
-    left: -36px;
+    left: -38px;
     background-image: linear-gradient(to right, #204fb7, #aee6e5);
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
-    font-size: 9px;
+    font-size: 11px;
     font-family: var(--font-aady);
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bolder;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .circle {
     width: 60px;
@@ -106,7 +110,7 @@
 }
 .icon h5 {
     text-align: center;
-    font-size: 8px;
+    font-size:11px;
     font-family: var(--font-aady);
     background-image: linear-gradient(to right, #8a8be0, #e770d7);
 }
@@ -121,4 +125,134 @@
 }
 .title:nth-last-child(1) {
     margin-top: 10px;
+}
+
+
+.icon:nth-last-child(4) h5 {
+    font-size: 8px;
+}
+.icon:nth-last-child(9) h5 {
+    font-size: 8px;
+}
+.icon:nth-last-child(10) h5 {
+    font-size: 9px;
+}
+.icon:nth-last-child(11) h5 {
+    font-size: 8px;
+}
+.icon:nth-last-child(13) h5 {
+    font-size: 9px;
+}
+.icon:nth-last-child(14) h5 {
+    font-size: 8px;
+}
+
+
+
+
+.icon:nth-child(2):before {
+    content: "دراسات إجتماعية";
+}
+.icon:nth-child(3):before {
+    content: "اللغة العربية";
+}
+.icon:nth-child(4):before {
+    content: "الرياضيات";
+    width: 92%;
+    height: 26px;
+    position: absolute;
+    bottom: 36px;
+    left: -38px;
+}
+.icon:nth-child(5):before {
+    content: "الرياضيات";
+}
+.icon:nth-child(6):before {
+    content: "العلوم";
+}
+.icon:nth-child(7):before {
+    content: "العلوم";
+}
+.icon:nth-child(8):before {
+    content: "العلوم";
+    width: 92%;
+    height: 26px;
+    position: absolute;
+    bottom: 36px;
+    left: -38px;
+}
+.icon:nth-child(9):before {
+    content: "Maths";
+}
+.icon:nth-child(10):before,
+.icon:nth-child(11):before {
+    content: "Maths";
+}
+.icon:nth-child(12):before {
+    content: "ريضيات إبتدائى";
+    width: 96%;
+    height: 26px;
+    position: absolute;
+    bottom: 33px;
+    left: -38px;
+}
+.icon:nth-child(13):before {
+    content: "اللغة العربية";
+}
+.icon:nth-child(14):before,
+.icon:nth-child(15):before {
+    content: "دراسات إجتماعية";
+}
+.icon:nth-child(15):before {
+    width: 96%;
+    height: 26px;
+    position: absolute;
+    bottom: 33px;
+    left: -38px;
+}
+.icon:nth-child(16):before,
+.icon:nth-child(17):before {
+    content: "اللغة الفرنسية";
+    width: 96%;
+    height: 26px;
+    position: absolute;
+    bottom: 33px;
+    left: -38px;
+}
+.icon:nth-child(18):before {
+    content: "تكنولوجيا";
+}
+.icon:nth-child(19):before,
+.icon:nth-child(20):before {
+    content: "Science";
+}
+.icon:nth-child(21):before {
+    content: "دراسات إجتماعبة";
+}
+.icon:nth-child(22):before {
+    content: "علوم إبتدائى";
+    width: 96%;
+    height: 26px;
+    position: absolute;
+    bottom: 33px;
+    left: -38px;
+}
+.icon:nth-child(23):before {
+    content: "دراسات إجتماعية";
+}
+.icon:nth-child(24):before {
+    content: "تأسيس";
+    width: 98%;
+    height: 28px;
+    position: absolute;
+    bottom: 35px;
+    left: -37px;
+}
+.icon:nth-child(25):before {
+    content: "دراسات إجتماعية";
+    width: 100%;
+    height: 26px;
+    position: absolute;
+    bottom: 36px;
+    left: -38px;
 }
