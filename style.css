@@ -43,7 +43,8 @@
     -o-border-radius: 50%;
 }
 .title h2,
-.title h3 {
+.title h3,
+.title h1 {
     font-family: var(--font-aady);
     text-align: center;
     text-shadow: 0 0 10px white;
@@ -184,12 +185,14 @@
 .icon:nth-child(9):before {
     content: "Maths";
 }
-.icon:nth-child(10):before,
-.icon:nth-child(11):before {
+.icon:nth-child(10):before {
     content: "Maths";
 }
+.icon:nth-child(11):before {
+    content: "رياضيات";
+}
 .icon:nth-child(12):before {
-    content: "ريضيات إبتدائى";
+    content: "رياضيات إبتدائى";
     width: 96%;
     height: 26px;
     position: absolute;
@@ -239,6 +242,11 @@
 }
 .icon:nth-child(23):before {
     content: "دراسات إجتماعية";
+    width: 87%;
+    height: 24px;
+    position: absolute;
+    bottom: 37px;
+    left: -38px;
 }
 .icon:nth-child(24):before {
     content: "تأسيس";
@@ -249,7 +257,7 @@
     left: -37px;
 }
 .icon:nth-child(25):before {
-    content: "دراسات إجتماعية";
+    content: "تأسيس";
     width: 100%;
     height: 26px;
     position: absolute;
